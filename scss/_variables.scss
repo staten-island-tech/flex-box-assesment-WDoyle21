@@ -1,0 +1,8 @@
+$colors: (
+    primary: #00F
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+$padding: 1.3rem;
