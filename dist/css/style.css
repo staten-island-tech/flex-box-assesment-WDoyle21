@@ -8,7 +8,27 @@ h1{
     font-family: 'Italianno', cursive;
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Italianno', cursive;
 }
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.description{
+    font-family: 'Italianno', cursive;
+    font-size: 30px;
+}
+
+.item1{
+    max-height: 25rem;
+    max-width: 35rem;
+}
+   
+
