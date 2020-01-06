@@ -6,12 +6,14 @@ h1{
     text-align: center;
     font-size: 80px;
     font-family: 'Italianno', cursive;
+    color: white;
 }
 
 h2{
     text-align: center;
     font-size: 50px;
     font-family: 'Italianno', cursive;
+    color: white;
 }
 
 .container1{
@@ -19,16 +21,51 @@ h2{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+
+
 }
 
 .description{
     font-family: 'Italianno', cursive;
     font-size: 30px;
+    color: white;
 }
 
-.item1{
-    max-height: 25rem;
-    max-width: 35rem;
-}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    }
+
+    .item11{
+        height: 10rem;
+        width: 15rem;
+        left: 20%;
+    }
+
+
+    .item12{
+        height: 10rem;
+        width: 15rem;
+        left: 50%;
+    }
+
+    .item13{
+        height: 10rem;
+        width: 15rem;
+        left: 80%;
+    }
    
+    .subitem21{
+        height: 10rem;
+        width: 15rem;
+    }
+
+    .subitem22{
+        height: 10rem;
+        width: 15rem;
+    }
+
 
